@@ -14,6 +14,7 @@ const swiper = new Swiper('.brands', {
 
 });
 
+
 document.addEventListener('DOMContentLoaded', function () {
 
     const buttons = document.querySelectorAll('.show-hidden');
@@ -62,3 +63,7 @@ document.addEventListener('DOMContentLoaded', function () {
         sidebar.classList.remove('active');
     });
 });
+
+
+
+

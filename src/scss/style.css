@@ -578,13 +578,7 @@ body {
    
 
 }
-/* 
-.first {
-    display: flex;
-    justify-content: flex-start;
-    align-items: flex-start;
-    
-} */
+
 
 .technologist-tablet {
     display: none;
@@ -907,6 +901,21 @@ body {
     height: 380px;
     gap: 20px;
 }
+
+   .technologist-tablet {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-top: 200px;
+}
+
+.technologist-notebook {
+    display: none;
+}
+
+.technologist-phone {
+    display: none;
+}
 }
 
 @media (min-width:320px) and (max-width:768px) {
@@ -1205,6 +1214,23 @@ body {
 
 
 } 
+
+ .technologist-tablet {
+    display: none;
+}
+
+.technologist-notebook {
+    display: none;
+}
+
+.technologist-phone {
+   display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    width: 100%;
+    background-color: aqua;
+   
+}
 
 
 }
