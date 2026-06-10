@@ -1,18 +1,18 @@
-const swiper = new Swiper('.brands', {
-  direction: 'horizontal',
-  slidesPerView: 'auto',
-  loop: true,
-  pagination: {
-    el:'.swiper-pagination',
-    clickable: true,
-  },
+ const swiper = new Swiper('.brands', {
+   direction: 'horizontal',
+   slidesPerView: 'auto',
+   loop: true,
+   pagination: {
+     el:'.swiper-pagination',
+     clickable: true,
+   },
    breakpoints: {
-    770: {
-        enabled: false,
+     770: {
+       enabled: false,
+     }
     }
-   }
 
-});
+ });
 
 
 document.addEventListener('DOMContentLoaded', function () {
@@ -63,6 +63,8 @@ document.addEventListener('DOMContentLoaded', function () {
         sidebar.classList.remove('active');
     });
 });
+
+
 
 
 
