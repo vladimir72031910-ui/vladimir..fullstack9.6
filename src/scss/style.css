@@ -744,8 +744,40 @@ body {
 .repair-service-text {
     font-family: TTLakes;
     font-size: 16px;
-    font-style: bold;
+    font-weight: bold;
     color: #FFFFFF;
+}
+
+.get-comm {
+    display: flex;
+    flex-direction: column;
+
+    width: 360px;
+    height: 90px;
+    margin: 40px;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.2;
+    color: #1B1C21;
+    gap: 10px;
+
+}
+
+.ger-comm-read {
+
+    font-size: 16px;
+    color: #1B1C21;
+    font-weight:bold;
+    text-decoration: none;
+}
+
+.read-color {
+    color: #FF3E79;
+    font-weight: bold;
+}
+
+.phone-price {
+    display: none;
 }
 
 @media (max-width:1119px) {
@@ -759,6 +791,155 @@ body {
     width: 100%;
     height: 88px;
 }
+
+.price-tab {
+     width: 750px;
+    height: 356px;
+    /* margin-left: 40px; */
+    background-color: #FFFFFF;
+
+}
+
+.price {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    margin-left:-1px ;
+    margin-top: 80px;
+   
+
+    
+    width: 756px;
+    height: 288px;
+   
+}
+
+.price-and-time {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 70px;
+    margin-top: 40px;
+    width: 850px;
+    height: 56px;
+   
+}
+.timing {
+    display: flex;
+     flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content:center;
+    align-items: center;
+    width: 450px;
+    height: 56px;
+  
+    padding-right: 160px;
+    gap: 120px;
+
+   
+}
+
+.time {
+    padding-right: 1px;
+}
+
+.sale {
+    padding-right: 1px;
+
+}
+.repair-service {
+     display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 30px;
+    margin-top: 10px;
+    width:750px;
+    height: 56px;
+    /* gap: 20px; */
+    border-bottom: 1px solid #EAEAEA;
+
+}
+
+.repair-service-information {
+
+    display: flex;
+     flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content:center;
+    align-items: center;
+    width: 400px;
+    height: 56px;
+
+    /* padding-left: 1px; */
+    /* gap: 100px; */
+}
+
+
+
+.repair-service-time {
+    padding-right: 1px;
+}
+.repair-service-price {
+    padding-right: 1px;
+}
+.repair-service-push-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 119px;
+    height: 32px;
+    border-radius: 16px;
+    border: none;
+    background-color: #FF3E79;
+}
+.pozz {
+   
+    margin-right: 0;
+   
+ 
+}
+
+.pozz2 {
+    padding-left: 0;
+}
+
+.pozz3 {
+    margin-right: 0;
+}
+
+.repair-service-text {
+    font-family: TTLakes;
+    font-size: 16px;
+    font-weight: bold;
+    color: #FFFFFF;
+}
+
+.get-comm {
+    display: flex;
+    flex-direction: column;
+
+    width: 360px;
+    height: 90px;
+    margin: 40px;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.2;
+    color: #1B1C21;
+    gap: 10px;
+
+}
+
+
+
+
+
+
+
+
 
 .main__center {
     display: flex;
@@ -1032,6 +1213,9 @@ body {
 }
 
 .technologist-phone {
+    display: none;
+}
+.phone-price {
     display: none;
 }
 }
@@ -1387,6 +1571,15 @@ body {
     /* padding-left: 40px; */
     gap: 20px;
 
+}
+
+.price {
+    display: none;
+}
+
+.phone-price {
+    display: flex;
+    flex-direction: column;
 }
 
 
