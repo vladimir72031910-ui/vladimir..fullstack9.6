@@ -15,6 +15,7 @@
  });
 
 
+
 document.addEventListener('DOMContentLoaded', function () {
 
     const buttons = document.querySelectorAll('.show-hidden');
