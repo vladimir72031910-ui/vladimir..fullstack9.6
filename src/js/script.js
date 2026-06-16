@@ -1,19 +1,36 @@
- const swiper = new Swiper('.brands', {
-   direction: 'horizontal',
-   slidesPerView: 'auto',
-   loop: true,
-   pagination: {
-     el:'.swiper-pagination',
-     clickable: true,
-   },
-   breakpoints: {
-     770: {
-       enabled: false,
-     }
-    }
+//  const swiper = new Swiper('.brands',{
+//     direction: 'horizontal',
+//      slidesPerView: 'auto',
+//    loop: true,
+//    pagination: {
+//      el:'.swiper-pagination',
+//     clickable: true,
+//   },
+//     breakpoints: {
+//      770: {
+//     enabled: false,
+//     }
+//      }
 
- });
+//    });
 
+var swiper1 = new Swiper('.swiper1', {
+    pagination: {
+        el: '.swiper-pagination1', // Точки для первого слайдера
+        clickable: true,
+    },
+});
+
+var swiper2 = new Swiper('.swiper2', {
+    pagination: {
+        el: '.swiper-pagination2', // Точки для второго слайдера
+        clickable: true,
+    },
+});
+
+
+
+ 
 
 document.addEventListener('DOMContentLoaded', function () {
 
