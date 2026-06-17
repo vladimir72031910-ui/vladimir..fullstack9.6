@@ -27,6 +27,13 @@ var swiper2 = new Swiper('.swiper2', {
         clickable: true,
     },
 });
+var swiper3 = new Swiper('.swiper3', {
+    pagination: {
+        el: '.swiper-pagination3', // Точки для второго слайдера
+        clickable: true,
+    },
+});
+
 
 
 

@@ -61,6 +61,19 @@ body {
     border: none;
 }
 
+.button-position2 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+
+
+    width: 150px;
+    height: 30px;
+}
+
 .buttons {
     display: flex;
     gap: 10px;
@@ -555,7 +568,7 @@ body {
 
     /* z-index: 1500; */
     width: 276px;
-    height: 1925px;
+    height: 2200px;
 
  } 
 
@@ -571,7 +584,7 @@ body {
     flex-direction: column;
     flex-wrap: nowrap;
     margin-left:276px ;
-    margin-top: 80px;
+    margin-top: 110px;
     
     width: 1120px;
     height: 288px;
@@ -639,7 +652,8 @@ body {
     flex-direction: column;
     flex-wrap: nowrap;
     margin-left:276px ;
-    margin-top: 80px;
+    margin-top: 280px;
+
    
 
     
@@ -671,8 +685,9 @@ body {
     display: flex;
      flex-direction: row;
     flex-wrap: nowrap;
-    justify-content:space-evenly;
+    justify-content:center;
     align-items: center;
+    gap: 100px;
     width: 700px;
     height: 56px;
    
@@ -718,7 +733,7 @@ body {
 
 }
 .repair-service-time {
-    padding-left: 60px;
+    /* padding-left: 60px; */
 }
 .repair-service-price {
     padding-right: 20px;
@@ -734,7 +749,7 @@ body {
     background-color: #FF3E79;
 }
 .pozz {
-    padding-right: 50px;
+    padding-right: 55px;
 }
 
 .pozz2 {
@@ -822,6 +837,10 @@ body {
 }
 
 .price-tab {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
      width: 750px;
     height: 356px;
     /* margin-left: 40px; */
@@ -833,7 +852,7 @@ body {
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
-    margin-left:-1px ;
+    margin-left:0 ;
     margin-top: 80px;
    
 
@@ -861,21 +880,22 @@ body {
     flex-wrap: nowrap;
     justify-content:center;
     align-items: center;
-    width: 450px;
+    width: 630px;
     height: 56px;
   
-    padding-right: 160px;
-    gap: 120px;
+  
+    /* padding-right: 160px; */
+    gap: 90px;
 
    
 }
 
 .time {
-    padding-right: 1px;
+    padding-right: 0;
 }
 
 .sale {
-    padding-right: 1px;
+    padding-right: 0;
 
 }
 .repair-service {
@@ -884,9 +904,9 @@ body {
     flex-wrap: nowrap;
     justify-content: space-between;
     align-items: center;
-    padding-left: 30px;
-    margin-top: 10px;
-    width:750px;
+    /* padding-left: 30px; */
+    /* margin-top: 10px; */
+    width:740px;
     height: 56px;
     /* gap: 20px; */
     border-bottom: 1px solid #EAEAEA;
@@ -898,10 +918,12 @@ body {
     display: flex;
      flex-direction: row;
     flex-wrap: nowrap;
-    justify-content:center;
+    justify-content:space-between;
     align-items: center;
     width: 400px;
     height: 56px;
+  
+   
 
     /* padding-left: 1px; */
     /* gap: 100px; */
@@ -910,15 +932,31 @@ body {
 
 
 .repair-service-time {
-    padding-right: 1px;
+   box-sizing: border-box;
+
+
+    width: 160px;
+    height: 30px;
+
+    /* padding-right: 0; */
 }
 .repair-service-price {
-    padding-right: 1px;
+   
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    width: 90px;
+    height: 30px;
+
+  
+    padding-right: 0;
+   
 }
 .repair-service-push-button {
-    display: flex;
+    /* display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: center; */
     width: 119px;
     height: 32px;
     border-radius: 16px;
@@ -926,6 +964,15 @@ body {
     background-color: #FF3E79;
 }
 .pozz {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    width: 100px;
+    padding-right: 40px;
+   
    
     margin-right: 0;
    
@@ -937,7 +984,7 @@ body {
 }
 
 .pozz3 {
-    margin-right: 0;
+    /* margin-right: 0; */
 }
 
 .repair-service-text {
@@ -1087,7 +1134,7 @@ body {
    
     margin-left: -1px;
     margin-top: 60px;
-    background-color: blanchedalmond;
+  
     
     
 
@@ -1149,12 +1196,20 @@ body {
 .hiddens {
     font-family: TTLakes;
     font-size: 16px;
+
     color: #1B1C21;
 }
 
 .button-position2 {
-    padding-left: 20px;
-    padding-top: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    
+
+    /* padding-left: 20px;
+    padding-top: 40px; */
 
     
 }
@@ -1202,7 +1257,7 @@ body {
 
 .menu__cps {
     width: 100%;
-    height: 730px;
+    height: 760px;
     background-color: rgb(255, 255, 255);
     box-shadow: 
     16px 0 52px 0 
@@ -1505,8 +1560,8 @@ body {
     /* margin-left: 40px; */
 
 }
-.swiper1, .swiper2 {
-    max-width: 320px;
+.swiper1, .swiper2, .swiper3 {
+    max-width: 360px;
     width: 100%;
 
 
@@ -1519,8 +1574,26 @@ body {
     justify-content: center;
     align-items: center;
     position: absolute;
+  
     width: 204px;
     height: 12px;
+
+
+    
+}
+
+.swiper-pagination3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items:flex-start;
+    padding-top: 80px;
+  
+    
+  
+    width: 204px;
+    height: 60px;
+  
 
 
     
@@ -1539,7 +1612,7 @@ body {
     display: flex;
     justify-content: flex-start;
     align-items: flex-start;
-    width: 320px;
+    width: 350px;
     height: 250px;
     /* padding-top: 20px; */
     position: relative;
@@ -1551,6 +1624,7 @@ body {
 
 
 }
+
 .brands2 {
 
     display: flex;
@@ -1568,6 +1642,22 @@ body {
     gap: 20px;
 
 
+}
+
+.brands3 {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 320px;
+    height: 250px;
+    /* padding-top: 20px; */
+    position: relative;
+    z-index: 1000;
+    /* padding-left: 40px; */
+    /* background-color: aqua; */
+    /* padding-bottom: 40px; */
+   
+    gap: 20px;
 }
 
 .hidden-section {
@@ -1640,9 +1730,18 @@ body {
 
 .phone-price {
     display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+  
     flex-direction: column;
+    width: 512px;
+    height: 350px;
 
 }
+
+
 
 .price-name-of {
     display: flex;
@@ -1650,6 +1749,16 @@ body {
     flex-wrap: nowrap;
     padding-left: 20px;
     padding-top: 20px;
+}
+
+
+
+.price-name-of2 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    padding-left: 20px;
+    padding-bottom: 20px;
 }
 
 .descreption-name-position{
@@ -1679,23 +1788,28 @@ body {
     display: flex;
     flex-direction: column;
     background-color: #FFFFFF;
-    min-width: 260px;
-    max-width: 260px;
-    min-height: 200px;
-    max-height: 200px;
+    min-width: 280px;
+    max-width: 280px;
+    min-height: 230px;
+    max-height: 250px;
     border-radius: 6px;
     border: 1px solid #EAEAEA;
-    margin-top: 50px;
+    /* margin-top: 50px; */
+    /* margin-left: 40px; */
+   
 }
 
-.swiper-wrapper {
-    gap: 20px;
-}
+
 
 .price-sector {
   display: flex;
 
 
+}
+
+.swiper-pagination3 {
+   
+   
 }
 
 .get-comm1 {
@@ -1732,18 +1846,20 @@ body {
     flex-wrap: nowrap;
     justify-content: center;
     align-items: center;
-    margin-top: 0;
-    margin-left: 10px;
+    margin-top: 70px;
+    margin-left: 30px;
     width: 320px;
     height: 129px;
-    gap: 20px;
+    /* gap: 20px; */
 }
 
 .about-cps-text-two{
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     justify-content: center;
+    align-items: center;
+
 
 } 
 
@@ -1825,6 +1941,15 @@ body {
  
 
 
+}
+   .page__title3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 320px;
+    height: 56px;
+    background: linear-gradient(to right, #F8F8F8 30%, #FFFFFF 70%);
+    /* margin-top: 45px; */
 }
 
 
